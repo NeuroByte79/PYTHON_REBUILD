@@ -47,6 +47,22 @@ print("a / b : ", Division,'\n')
 print("a % b : ",Reminder,'\n')
 print("a // b : ", Floor_division,'\n')
 print("a ** b : ", Exponential,'\n')
- 
+
+
+# .................... 
+# @@@@+++++------>>>>>>>>> You can use 'PEDMAS' in python for more than one arithmetics operations are involve use this.
+
+# calculating perimeter of circle
+
+radius = 21
+PI = 3.14
+perimeter_of_circle = 2 * PI * radius
+print("The perimeter of circle is : ", perimeter_of_circle,'\n')
+
+
+
+
+
+
 
 
