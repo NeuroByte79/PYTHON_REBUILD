@@ -64,10 +64,162 @@ print("The perimeter of circle is : ", perimeter_of_circle,'\n')
 
 #+++++------->>>>>>>>> ASSIGNMENTS OPERATORS ++++++------->>>>>>>>>>>>
 # Used to assign values to variables
- 
+
+# 1. Basic Assignment operator(=) ---->>> Assign a value to a variable
+x = 10
+name = "Shyam"
+
+print(x)
+print(name)
+print("\n")
+# 2. Add and Assign (+=) ---->>>> Adds the value and store the result back
+
+# syntax
+# x += y #  = x + y
+
+x = 10
+x += 5
+print(x)
+print("\n")
+# 3. Subtract and Assign(-=) ---->>>> Subtract and store the result
+
+x = 30
+x -= 20
+print(x)
+print("\n")
+
+# 4. Multiply and Assign (*=) ---->>>>> Multiply and store the value
+
+x = 10
+x *= 4
+print(x)
+print("\n")
+
+# 5. Divide and Assign(/=) ---->>>> Divide and store the value
+
+x = 20
+x /= 4
+print(x)
+print("\n")
+
+# 6. Floor Division and Assign (//=) ------->>>>> Remove decimal part and store
+
+x = 27
+x //= 5
+print(x)
+print("\n")
+
+# 7. Modulus and Assign (%=) ----->>>>>> Store reminder
+
+x = 29
+x %= 3
+print(x)
+print("\n")
+
+# 8. Exponent and Assign (**=) --->>>> Power operator
+
+x  = 2
+x **= 5
+print(x)
+print("\n")
+
+# 9. Bitwise AND Assign (&=)
+
+x = 10
+x &= 7
+print(x)
+print("\n")
+
+# 10. Bitwise OR Assign (|=)
+
+x = 10
+x |= 7
+
+print(x)
+print("\n")
+
+# 11. Bitwise XOR Assign (^=)
+
+x = 10
+x ^= 7 
+print(x)
+print("\n")
+
+# 12. Left Shift Assign (<<=)
+
+x = 5 
+x <<= 2
+print(x)
+print("\n")
+
+# 13. Right Shift Assign (>>=)
+
+x = 20
+x >>= 2
+print(x)
+print("\n")
 
 
 
+# ++++++------->>>>>>  COMPARISON OPERATORS   +++++++++---------<<<<<<<<<<<
+
+# 1 . Equal(==)
+print(10==10)
+
+# 2. Not Equal (!=)
+
+print(10 != 5)
+
+# 3. Greater Than (>) or Grater Than Equal (>=)
+print(10 > 5)
+print(10 >= 5)
+
+# 4. Less Than (<) or Less Than Equal (<=)
+print(10<5)
+print(10<=15)
+print("\n")
 
 
+
+# +++++++----->>>>> Logical Operator ++++++---------<<<<<<<<
+
+# 1.  AND 
+print(True and True)
+
+# 2. OR
+print(True or False)
+
+# 3.  Not
+print(not True)
+print("\n")
+
+
+# +++++------->>>>>>>  Membership Operator ++++++---------<<<<<<<<<<<<<<
+
+# 1. in ------>>> Present
+name = "Python"
+print("P" in name)
+
+# 2. not in ------->>>> Not Present
+
+print("z" not in name)
+print("\n")
+
+
+# ++++++++------>>>>>> Identity Operator +++++++++------<<<<<<<<<<<<
+
+# 1. is ----->>>>> Same object
+
+a = [2,3]
+b = a
+
+print(a is b)
+
+# 2. is not ------>>>>> Different object
+
+a = [1,2]
+b = [1,2]
+
+print(a is not b)
+print("\n")
 
